@@ -65,7 +65,8 @@ function insertItemAtBeginning(groceries, item) {
 // Step 3: Using replaceFirstTwoItems function replace the first two elements with 'ketchup' and 'chili', and return the new groceries list
 function replaceFirstTwoItems(groceries) {
   // write your code here...
-  return groceries.splice(0, 2, "ketchup", "chili");
+  groceries.splice(0, 2, "ketchup", "chili");
+  return groceries;
 }
 
 // DO NOT CHANGE THE LINE OF CODE BELOW

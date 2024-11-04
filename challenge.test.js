@@ -16,7 +16,7 @@ function generateRandomItem() {
  * To attempt the challenge,
  * remove the "x" from "xdescribe" 👇🏼
  */
-xdescribe("🌶️🌶️🌶️ Challenges", () => {
+describe("🌶️🌶️🌶️ Challenges", () => {
   describe("deleteThirdItem", () => {
     it("should delete the third element from the array", () => {
       const copy = [...groceries];
