@@ -4,7 +4,7 @@
   "description": "This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.",
   "main": "arrays1.js",
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest",
     "ghworkflowtest": "jest"
   },
   "keywords": [],
@@ -20,4 +20,3 @@
     "@faker-js/faker": "^9.1.0"
   }
 }
-
